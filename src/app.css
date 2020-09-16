@@ -1,0 +1,44 @@
+.mainTitle-appear {
+  transform: translateX(-100%);
+}
+
+.mainTitle-appear-active {
+  transform: translateX(0);
+  transition: transform 500ms;
+}
+
+.contactsTitle-enter {
+  transform: translateY(-100%);
+}
+
+.contactsTitle-entered-active {
+  transform: translateY(0);
+  transition: transform 300ms;
+}
+
+.contactsTitle-exit {
+  transform: translateY(0);
+}
+
+.contactsTitle-exit-active {
+  transform: translateY(-100%);
+  transition: transform 300ms;
+}
+
+.contactList-enter {
+  transform: translateX(-300%);
+}
+
+.contactList-enter-active {
+  transform: translateX(0);
+  transition: transform 500ms linear 1000ms;
+}
+
+.contactList-exit {
+  transform: translateX(0);
+}
+
+.contactList-exit-active {
+  transform: translateX(-300%);
+  transition: transform 500ms linear 1000ms;
+}

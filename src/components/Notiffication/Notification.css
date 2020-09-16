@@ -1,0 +1,25 @@
+.error {
+  background-color: red;
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.error-enter {
+  transform: translateX(-300%);
+}
+
+.error-enter-active {
+  transform: translateX(0);
+  transition: transform 500ms linear 1000ms;
+}
+
+.error-exit {
+  transform: translateX(0);
+}
+
+.error-exit-active {
+  transform: translateX(-300%);
+  transition: transform 500ms linear 1000ms;
+}
